@@ -1,0 +1,16 @@
+{
+  "name": "03-bases-node",
+  "version": "0.0.1",
+  "description": "Aplicacion que que perminete generar la tabla de multiplicacion hasta el 10 de un numero",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app --base=3 -l -h=10"
+  },
+  "author": "Juan Miguel Bogado",
+  "license": "MIT",
+  "dependencies": {
+    "colors": "1.4.0",
+    "yargs": "17.7.2"
+  }
+}
