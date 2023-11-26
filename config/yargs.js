@@ -15,7 +15,7 @@ const argv = require('yargs')
     alias: 'desde',
     type: 'number',
     default: 1,
-    describe: "Desde que numero empieza en multipicador"
+    describe: "Desde que numero empieza el multiplicador"
 })
 .option('h',{
     alias: 'hasta',
